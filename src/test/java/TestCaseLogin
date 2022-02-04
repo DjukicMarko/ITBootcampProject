@@ -1,0 +1,26 @@
+1. Test case user login
+
+2. Test description:
+    We will try to login existing user
+
+3. Test case steps
+    1) Open Chrome
+    2) Go to "https://letcode.in/"
+    3) Click on the log up
+    4) Input email and password
+    5) Click on the log in button
+    6) Assert that you logged in a user
+
+4. Test parameters
+    1) https://letcode.in/
+    2) johndoe10@gmail.com
+    3) password
+
+5. Environment
+    Google chrome, OS Windows
+
+6. Actual results
+    User was logged
+
+7. Expected results
+    User was logged

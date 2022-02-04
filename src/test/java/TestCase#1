@@ -1,0 +1,28 @@
+1. Test case #1
+
+2. Test description:
+    We will try to register new user
+
+3. Test case steps
+    1) Open Chrome
+    2) Go to "https://letcode.in/test"
+    3) Click on the sign up
+    4) Input name, email and password
+    5) Click on the "agree" checkbox
+    6) Click on the sign up button
+    7) Assert that you signed up new user
+
+4. Test parameters
+    1) https://letcode.in/test
+    2) John Doe
+    3) johndoe5@gmail.com
+    4) password
+
+5. Environment
+    Google chrome, OS Windows
+
+6. Actual results
+    New user was added
+
+7. Expected results
+    We expect new user to be added

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Testing full stack QA]">
+  <listeners>
+    <listener class-name="TestNGListenerConcept.MojSkrinsoter"/>
+    <listener class-name="org.testng.reporters.EmailableReporter"/>
+    <listener class-name="org.testng.reporters.FailedReporter"/>
+  </listeners>
+  <test thread-count="5" name="probaTestListener(failed)">
+    <classes>
+      <class name="TestScreenshot">
+        <methods>
+          <include name="testKojiPada"/>
+        </methods>
+      </class> <!-- TestScreenshot -->
+    </classes>
+  </test> <!-- probaTestListener(failed) -->
+</suite> <!-- Failed suite [Testing full stack QA] -->

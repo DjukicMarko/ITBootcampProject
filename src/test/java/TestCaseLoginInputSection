@@ -1,0 +1,33 @@
+1. Test case testing input section
+
+2. Test description:
+    We will test various options on an input section
+
+3. Test case steps
+    1) Open Chrome
+    2) Go to "https://letcode.in/"
+    3) Click on the log up
+    4) Input email and password
+    5) Click on the log in button
+    6) Click on the work space
+    7) Click on the input section
+    8) Input full name in the first input
+    9) Clear the text from the box and send keys "I am a good fella."
+    10) Assert that the next field is disabled
+    11) Assert that the last field is readonly
+
+4. Test parameters
+    1) https://letcode.in/
+    2) johndoe10@gmail.com
+    3) password
+    4) John Doe
+    5) I am a good fella.
+
+5. Environment
+    Google chrome, OS Windows
+
+6. Actual results
+    All fields required different action
+
+7. Expected results
+    All fields required different action

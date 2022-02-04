@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite verbose="1" name="Testing full stack QA" annotations="JDK">
+    <listeners>
+        <listener class-name="TestNGListenerConcept.MojSkrinsoter" />
+        <listener class-name="org.testng.reporters.EmailableReporter" />
+        <listener class-name="org.testng.reporters.FailedReporter" />
+    </listeners>
+    <test name="probaTestListener">
+        <classes>
+            <class name="TestScreenshot"/>
+        </classes>
+    </test>
+
+</suite>

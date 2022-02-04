@@ -1,0 +1,32 @@
+1. Test case testing dropdown section
+
+2. Test description:
+    We will test various options on a dropdown
+
+3. Test case steps
+    1) Open Chrome
+    2) Go to "https://letcode.in/"
+    3) Click on the log up
+    4) Input email and password
+    5) Click on the log in button
+    6) Click on the work space
+    7) Click on the dropdown and select apple via visible text
+    8) Select superhero by value
+    9) Select programing language by position
+    10) Select country by first option and print it
+    11) Assert that all selects passed
+
+4. Test parameters
+    1) https://letcode.in/
+    2) johndoe10@gmail.com
+    3) password
+    4) apple
+
+5. Environment
+    Google chrome, OS Windows
+
+6. Actual results
+    All options from dropdown were selectable
+
+7. Expected results
+    All options from dropdown were selectable
