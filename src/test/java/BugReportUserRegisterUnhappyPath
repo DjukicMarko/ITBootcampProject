@@ -1,0 +1,35 @@
+1. Bug report user register without clicking checkbox
+
+2. Description
+    We tried to add new user without clicking "agree to terms" checkbox
+
+3. Steps to reproduce
+    1) Open Chrome
+    2) Go to "https://letcode.in/test"
+    3) Click on the sign up
+    4) Input name, email and password
+    5) Do not click on the "agree" checkbox
+    6) Click on the sign up button
+    7) Assert that you can not sign up new user
+
+4. Bug parameters
+    1) https://letcode.in/test
+    2) name, email and password
+
+5. Expected results
+    We expect new user not to be registered
+
+6. Actual results
+    New user was added
+
+7. Screenshoot
+    https://ibb.co/YfRc7Kv
+
+8. Environment
+    Google Chrome, Windows OS
+
+9. Severity
+    Major
+
+10. Priority
+    High

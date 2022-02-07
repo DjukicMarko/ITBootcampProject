@@ -43,12 +43,24 @@ public class TestLetcodeRegister extends TestListenerAdapter {
     public void testRegisterUnhappyPath() throws IOException, InterruptedException {
         LetcodeRegister lcr = new LetcodeRegister(wd);
         wd.get("https://letcode.in/test");
-        lcr.userSignupUnhappyPath("John Doe", "johndoe11@gmail.com", "password");
+        File screenshot = ((TakesScreenshot) wd).getScreenshotAs(OutputType.FILE);
+        lcr.userSignupUnhappyPath("John Doe", "johndoe21@gmail.com", "password");
         try {
             WebElement signOut = wd.findElement(By.xpath("//a[contains(text(),'Sign out')]"));
             Assert.assertTrue(false);
         } catch (Exception e) {
             Assert.assertTrue(true);
+        }
+        try {
+            WebElement signOut = wd.findElement(By.xpath("//a[contains(text(),'Sign out')]"));
+            Assert.assertTrue(false);
+        } catch (Exception e) {
+            Assert.assertTrue(true);
+        }
+        try {
+            FileUtils.copyFile(screenshot, new File("C:\\Users\\ortak\\OneDrive\\Dokumenti\\ITBootcamp\\Screenshoots\\homePageScreenshot.png"));
+        } catch (IOException e) {
+            System.out.println(e.getMessage());
         }
     }
 }

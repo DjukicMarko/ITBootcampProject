@@ -1,0 +1,25 @@
+1. Test case open section in new tab
+
+2. Test description:
+    We will try to open LetXPath section in a new tab
+
+3. Test case steps
+    1) Open Chrome
+    2) Go to "https://letcode.in"
+    3) Right click on the LetXpath button
+    4) Assert that the section was opened in the new tab
+    5) Assert that the background color of "Open source project" was printed in console
+
+4. Test parameters
+    1) https://letcode.in
+    2) LetXPath
+    3) Open source project
+
+5. Environment
+    Google chrome, OS Windows
+
+6. Actual results
+    Section was opened in the new tab and background color of div was asserted
+
+7. Expected results
+    Section was opened in the new tab and background color of div was asserted

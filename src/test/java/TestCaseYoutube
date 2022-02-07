@@ -1,0 +1,22 @@
+1. Test case YouTube
+
+2. Test description:
+    We will try to redirect to YouTube via link in the nav bar
+
+3. Test case steps
+    1) Open Chrome
+    2) Go to "https://letcode.in"
+    3) Click on the YouTube button
+    4) Assert that the redirected URL was to login to Google account
+
+4. Test parameters
+    1) https://letcode.in/test
+
+5. Environment
+    Google chrome, OS Windows
+
+6. Actual results
+    Redirected page was Google account
+
+7. Expected results
+    Redirected page was Google account
